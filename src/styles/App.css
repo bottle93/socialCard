@@ -1,51 +1,51 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .card-content {
-  align-self: center;
-  width: 50%;
-  box-shadow: 0 0 5px 0 rgba(0,0,0, 0.7);
-  margin: 10px 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    align-self: center;
+    width: 50%;
+    box-shadow: 0 0 5px 0 rgba(0,0,0, 0.7);
+    margin: 10px 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .personal-data {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .person {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .name {
-  font-size: 1.2rem;
-  margin-right: 5px;
-  font-family: 'Diplomata', cursive;
-  flex-basis: 60%;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    font-family: 'Diplomata', cursive;
+    flex-basis: 60%;
 }
 
 .surname {
-  font-family: 'Rye', cursive;
+    font-family: 'Rye', cursive;
 }
 
 .title {
-  border-top: 1px solid rgba(0,0,0, 0.1);
-  padding-top: 5px;
-  font-family: 'Rye', cursive;
-  font-weight: 400;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    padding-top: 5px;
+    font-family: 'Rye', cursive;
+    font-weight: 400;
 }
 
 .address {
-  font-family: 'Alegreya SC', serif;
+    font-family: 'Alegreya SC', serif;
 }
